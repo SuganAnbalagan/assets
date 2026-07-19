@@ -1,190 +1,69 @@
-#!/usr/bin/env python3
-
-"""
-Elite Nuvio Badge Generator
-Generates:
-- SVG badges
-- badges.json
-
-Edit BADGES below to add/remove badges.
-"""
-
-from pathlib import Path
+import os
 import json
-import re
+from PIL import Image, ImageDraw, ImageFont
 
-# ===========================
-# CONFIG
-# ===========================
+config_json = '''... (Paste the complete JSON structure snippet from section 1 right here) ...'''
 
-OUT = Path("output")
-SVG = OUT / "svg"
+badge_data = json.loads(config_json)
+base_output_dir = "nuvio_badges"
+os.makedirs(base_output_dir, exist_ok=True)
 
-OUT.mkdir(exist_ok=True)
-SVG.mkdir(exist_ok=True)
+with open(f"{base_output_dir}/badges.json", "w") as f:
+    f.write(config_json)
 
-FONT = "Inter,Segoe UI,Arial,sans-serif"
-HEIGHT = 28
-RADIUS = 8
+# Elite layout metrics based directly on the visual template image
+PADDING_X = 14
+PADDING_Y = 6
+CORNER_RADIUS = 7
+BORDER_WIDTH = 2
 
-# ===========================
-# BADGES
-# ===========================
-
-BADGES = {
-
-    "resolution": {
-        "color": "#2563EB",
-        "items": [
-            ("480P", r"(?i)\b480p\b"),
-            ("576P", r"(?i)\b576p\b"),
-            ("720P", r"(?i)\b720p\b"),
-            ("1080P", r"(?i)\b1080p\b"),
-            ("1440P", r"(?i)\b1440p\b"),
-            ("2160P", r"(?i)\b(?:2160p|4k|uhd)\b"),
-            ("4320P", r"(?i)\b(?:4320p|8k)\b"),
-        ]
-    },
-
-    "quality": {
-        "color": "#7C3AED",
-        "items": [
-            ("WEB-DL", r"(?i)\bweb.?dl\b"),
-            ("WEBRIP", r"(?i)\bweb.?rip\b"),
-            ("REMUX", r"(?i)\bremux\b"),
-            ("BLURAY", r"(?i)\bblu.?ray\b"),
-            ("BDRIP", r"(?i)\bbdrip\b"),
-            ("BRRIP", r"(?i)\bbrrip\b"),
-            ("HDTV", r"(?i)\bhdtv\b"),
-        ]
-    },
-
-    "visual": {
-        "color": "#F59E0B",
-        "items": [
-            ("HDR", r"(?i)\bhdr\b"),
-            ("HDR10", r"(?i)\bhdr10\b"),
-            ("HDR10+", r"(?i)\bhdr10\+\b"),
-            ("DOLBY VISION", r"(?i)(dolby.?vision|\bdv\b)"),
-        ]
-    },
-
-    "audio": {
-        "color": "#16A34A",
-        "items": [
-            ("ATMOS", r"(?i)\batmos\b"),
-            ("TRUEHD", r"(?i)\btruehd\b"),
-            ("DTS:X", r"(?i)dts.?x"),
-            ("DTS-HD MA", r"(?i)dts.?hd.?ma"),
-            ("AAC", r"(?i)\baac\b"),
-            ("FLAC", r"(?i)\bflac\b"),
-        ]
-    },
-
-    "channels": {
-        "color": "#0D9488",
-        "items": [
-            ("2.0", r"\b2\.0\b"),
-            ("5.1", r"\b5\.1\b"),
-            ("7.1", r"\b7\.1\b"),
-        ]
-    },
-
-    "languages": {
-        "color": "#64748B",
-        "items": [
-            ("EN", r"(?i)\benglish\b|\ben\b"),
-            ("JA", r"(?i)\bjapanese\b|\bja\b"),
-            ("HI", r"(?i)\bhindi\b|\bhi\b"),
-            ("TA", r"(?i)\btamil\b|\bta\b"),
-        ]
-    }
-
-}
-
-# ===========================
-# SVG
-# ===========================
-
-SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg"
-width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-<defs>
-<linearGradient id="g" x1="0" x2="1">
-<stop offset="0%" stop-color="{color}"/>
-<stop offset="100%" stop-color="#111827"/>
-</linearGradient>
-</defs>
-
-<rect
-width="{width}"
-height="{height}"
-rx="{radius}"
-fill="url(#g)"/>
-
-<text
-x="50%"
-y="50%"
-dominant-baseline="middle"
-text-anchor="middle"
-font-size="13"
-font-weight="700"
-font-family="{font}"
-fill="white">{text}</text>
-
-</svg>
-"""
-
-# ===========================
-# HELPERS
-# ===========================
-
-def estimate_width(label):
-    return max(64, len(label) * 9 + 24)
-
-badges_json = []
-
-for category, info in BADGES.items():
-
-    color = info["color"]
-
-    for label, regex in info["items"]:
-
-        width = estimate_width(label)
-
-        filename = (
-            label.lower()
-            .replace("+", "plus")
-            .replace(":", "")
-            .replace(" ", "-")
-            + ".svg"
+for category, badges in badge_data.items():
+    category_dir = os.path.join(base_output_dir, category)
+    os.makedirs(category_dir, exist_ok=True)
+    
+    for badge in badges:
+        text = badge["label"]
+        bg_color = badge["bg_color"]
+        text_color = badge["text_color"]
+        border_color = badge["border_color"]
+        
+        font = ImageFont.load_default()
+        
+        # Geometry math engine
+        dummy_img = Image.new("RGBA", (1, 1))
+        draw_dummy = ImageDraw.Draw(dummy_img)
+        bbox = draw_dummy.textbbox((0, 0), text, font=font)
+        text_w = bbox[2] - bbox[0]
+        text_h = bbox[3] - bbox[1]
+        
+        badge_w = text_w + (PADDING_X * 2)
+        badge_h = text_h + (PADDING_Y * 2)
+        
+        # Rendering pipeline canvas setup
+        img = Image.new("RGBA", (badge_w, badge_h), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(img)
+        
+        # Base fill layer
+        draw.rounded_rectangle(
+            [(0, 0), (badge_w, badge_h)],
+            radius=CORNER_RADIUS,
+            fill=bg_color
         )
-
-        svg = SVG_TEMPLATE.format(
-            width=width,
-            height=HEIGHT,
-            radius=RADIUS,
-            color=color,
-            font=FONT,
-            text=label,
+        
+        # Heavy minimalist border outline offset calculation
+        draw.rounded_rectangle(
+            [(1, 1), (badge_w - 1, badge_h - 1)],
+            radius=CORNER_RADIUS,
+            outline=border_color,
+            width=BORDER_WIDTH
         )
+        
+        # Center-align font typography perfectly inside the border bounds
+        text_x = (badge_w - text_w) // 2
+        text_y = (badge_h - text_h) // 2 - bbox[1]
+        draw.text((text_x, text_y), text, fill=text_color, font=font)
+        
+        filename = os.path.join(category_dir, f"{badge['id']}.png")
+        img.save(filename, "PNG")
 
-        (SVG / filename).write_text(svg, encoding="utf-8")
-
-        badges_json.append({
-
-            "category": category,
-            "label": label,
-            "regex": regex,
-            "icon": f"svg/{filename}"
-
-        })
-
-# validate regex
-for badge in badges_json:
-    re.compile(badge["regex"])
-
-with open(OUT / "badges.json", "w", encoding="utf-8") as f:
-    json.dump(badges_json, f, indent=2)
-
-print("Done!")
-print(f"Generated {len(badges_json)} badges.")
+print("Elite monochrome badge templates rendered successfully.")
