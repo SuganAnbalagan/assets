@@ -8,10 +8,10 @@
       "name": "8K",
       "pattern": "(?i)\\b(?:4320[pi]?|8k)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gr",
@@ -21,10 +21,10 @@
       "name": "4K",
       "pattern": "(?i)^(?=.*(?:2160[pi]?|4k|uhd))(?!.*(?:4320[pi]?|8k))",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gr",
@@ -34,10 +34,10 @@
       "name": "1440p",
       "pattern": "(?i)\\b1440[pi]?\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gr",
@@ -47,10 +47,10 @@
       "name": "1080p",
       "pattern": "(?i)\\b1080[pi]?\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gr",
@@ -60,10 +60,10 @@
       "name": "720p",
       "pattern": "(?i)\\b720[pi]?\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gr",
@@ -73,10 +73,10 @@
       "name": "576p",
       "pattern": "(?i)\\b576[pi]?\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gr",
@@ -86,10 +86,10 @@
       "name": "480p",
       "pattern": "(?i)\\b480[pi]?\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -99,10 +99,10 @@
       "name": "UHD BluRay",
       "pattern": "(?i)\\buhd(?:[-_. ]?bluray|[-_. ]?blu-ray)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -112,10 +112,10 @@
       "name": "Remux",
       "pattern": "(?i)\\b(?:bd|uhd)?remux\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -125,10 +125,10 @@
       "name": "BluRay",
       "pattern": "(?i)^(?=.*(?:bluray|blu-ray|\\bb[dr][-_. ]?rip\\b|\\bbd(?:25|50|r|mv)?\\b))(?!.*\\b(?:bd|uhd)?remux\\b)(?!.*\\buhd(?:[-_. ]?bluray|[-_. ]?blu-ray)\\b)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -138,10 +138,10 @@
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl|web(?![-_. ]?rip)\\b)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -151,10 +151,10 @@
       "name": "WebRip",
       "pattern": "(?i)\\bweb[-_. ]?rip\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -164,10 +164,10 @@
       "name": "BDRip",
       "pattern": "(?i)\\bbdrip\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -177,10 +177,10 @@
       "name": "BRRip",
       "pattern": "(?i)\\bbrrip\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -190,10 +190,10 @@
       "name": "DVDRip",
       "pattern": "(?i)\\bdvdrip\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -203,10 +203,10 @@
       "name": "HDTV",
       "pattern": "(?i)\\bhdtv\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -216,10 +216,10 @@
       "name": "CAM",
       "pattern": "(?i)\\bcam(?:[-_. ]?rip)?\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -229,10 +229,10 @@
       "name": "TS",
       "pattern": "(?i)\\b(?:ts|telesync)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gq",
@@ -242,10 +242,10 @@
       "name": "TC",
       "pattern": "(?i)\\b(?:tc|telecine)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -255,10 +255,10 @@
       "name": "Vision",
       "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -268,10 +268,10 @@
       "name": "DV HDR10",
       "pattern": "(?i)(?=.*(?:dv|dovi|dolby[\\s._-]?vision))(?=.*hdr10)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -281,10 +281,10 @@
       "name": "HDR10+",
       "pattern": "(?i)\\bhdr10(?:\\+|plus)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -294,10 +294,10 @@
       "name": "HDR10",
       "pattern": "(?i)\\bhdr10\\b(?!\\+)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -307,10 +307,10 @@
       "name": "HDR",
       "pattern": "(?i)\\bhdr\\b(?!10)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -320,10 +320,10 @@
       "name": "IMAX",
       "pattern": "(?i)\\bimax\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -333,10 +333,10 @@
       "name": "HLG",
       "pattern": "(?i)\\bhlg\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gv",
@@ -346,10 +346,10 @@
       "name": "SDR",
       "pattern": "(?i)\\bsdr\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -359,10 +359,10 @@
       "name": "Atmos",
       "pattern": "(?i)\\batmos\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -372,10 +372,10 @@
       "name": "TrueHD Atmos",
       "pattern": "(?i)(?=.*truehd)(?=.*atmos)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -385,10 +385,10 @@
       "name": "TrueHD",
       "pattern": "(?i)\\btrue[-_. ]?hd\\b(?!.*atmos)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -398,10 +398,10 @@
       "name": "DD+",
       "pattern": "(?i)\\b(?:ddp|dd\\+|eac3|e-ac3)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -411,10 +411,10 @@
       "name": "Dolby Digital",
       "pattern": "(?i)\\b(?:dd|ac3|dolby[-_. ]?digital)\\b(?!\\+)(?!p)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -424,10 +424,10 @@
       "name": "DTS:X",
       "pattern": "(?i)\\bdts[-_.: ]?x\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -437,10 +437,10 @@
       "name": "DTS-HD MA",
       "pattern": "(?i)\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -450,10 +450,10 @@
       "name": "DTS-HD HR",
       "pattern": "(?i)\\bdts[-_. ]?hd[-_. ]?hr\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -463,10 +463,10 @@
       "name": "DTS",
       "pattern": "(?i)\\bdts\\b(?!-hd)(?!:x)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -476,10 +476,10 @@
       "name": "FLAC",
       "pattern": "(?i)\\bflac\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -489,10 +489,10 @@
       "name": "AAC",
       "pattern": "(?i)\\baac\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -502,10 +502,10 @@
       "name": "PCM",
       "pattern": "(?i)\\bpcm\\b(?![-_. ]?lossless)",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -515,10 +515,10 @@
       "name": "LPCM",
       "pattern": "(?i)\\blpcm\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -528,10 +528,10 @@
       "name": "Opus",
       "pattern": "(?i)\\bopus\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "ga",
@@ -541,10 +541,10 @@
       "name": "MP3",
       "pattern": "(?i)\\bmp3\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gc",
@@ -554,10 +554,10 @@
       "name": "9.1",
       "pattern": "[^0-9]9[. ][01](?![0-9])",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gc",
@@ -567,10 +567,10 @@
       "name": "7.1",
       "pattern": "[^0-9]7[. ][01](?![0-9])",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gc",
@@ -580,10 +580,10 @@
       "name": "5.1",
       "pattern": "[^0-9]5[. ][01](?![0-9])",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gc",
@@ -593,10 +593,10 @@
       "name": "2.1",
       "pattern": "[^0-9]2[. ]1(?![0-9])",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gc",
@@ -606,10 +606,10 @@
       "name": "2.0",
       "pattern": "(?i)[^0-9]2[. ]0(?![0-9])|\\bstereo\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gc",
@@ -619,10 +619,10 @@
       "name": "1.0",
       "pattern": "(?i)[^0-9]1[. ]0(?![0-9])|\\bmono\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -632,10 +632,10 @@
       "name": "EN",
       "pattern": "(?i)\\b(?:en|eng|english)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -645,10 +645,10 @@
       "name": "JA",
       "pattern": "(?i)\\b(?:ja|jpn|japanese)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -658,10 +658,10 @@
       "name": "KO",
       "pattern": "(?i)\\b(?:ko|kor|korean)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -671,10 +671,10 @@
       "name": "ZH",
       "pattern": "(?i)\\b(?:zh|chi|zho|chinese)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -684,10 +684,10 @@
       "name": "HI",
       "pattern": "(?i)\\b(?:hi|hin|hindi)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -697,10 +697,10 @@
       "name": "TA",
       "pattern": "(?i)\\b(?:ta|tam|tamil)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -710,10 +710,10 @@
       "name": "TE",
       "pattern": "(?i)\\b(?:te|tel|telugu)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -723,10 +723,10 @@
       "name": "ML",
       "pattern": "(?i)\\b(?:ml|mal|malayalam)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -736,10 +736,10 @@
       "name": "KN",
       "pattern": "(?i)\\b(?:kn|kan|kannada)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -749,10 +749,10 @@
       "name": "BN",
       "pattern": "(?i)\\b(?:bn|ben|bengali)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -762,10 +762,10 @@
       "name": "PA",
       "pattern": "(?i)\\b(?:pa|pan|punjabi)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -775,10 +775,10 @@
       "name": "MR",
       "pattern": "(?i)\\b(?:mr|mar|marathi)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -788,10 +788,10 @@
       "name": "GU",
       "pattern": "(?i)\\b(?:gu|guj|gujarati)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -801,10 +801,10 @@
       "name": "UR",
       "pattern": "(?i)\\b(?:ur|urd|urdu)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -814,10 +814,10 @@
       "name": "AR",
       "pattern": "(?i)\\b(?:ar|ara|arabic)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -827,10 +827,10 @@
       "name": "FR",
       "pattern": "(?i)\\b(?:fr|fra|french)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -840,10 +840,10 @@
       "name": "DE",
       "pattern": "(?i)\\b(?:de|deu|german)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -853,10 +853,10 @@
       "name": "IT",
       "pattern": "(?i)\\b(?:it|ita|italian)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -866,10 +866,10 @@
       "name": "ES",
       "pattern": "(?i)\\b(?:es|spa|spanish)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -879,10 +879,10 @@
       "name": "PT",
       "pattern": "(?i)\\b(?:pt|por|portuguese)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -892,10 +892,10 @@
       "name": "RU",
       "pattern": "(?i)\\b(?:ru|rus|russian)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -905,10 +905,10 @@
       "name": "UK",
       "pattern": "(?i)\\b(?:uk|ukr|ukrainian)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -918,10 +918,10 @@
       "name": "TR",
       "pattern": "(?i)\\b(?:tr|tur|turkish)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -931,10 +931,10 @@
       "name": "NL",
       "pattern": "(?i)\\b(?:nl|nld|dutch)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -944,10 +944,10 @@
       "name": "PL",
       "pattern": "(?i)\\b(?:pl|pol|polish)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -957,10 +957,10 @@
       "name": "CS",
       "pattern": "(?i)\\b(?:cs|ces|czech)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -970,10 +970,10 @@
       "name": "SV",
       "pattern": "(?i)\\b(?:sv|swe|swedish)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -983,10 +983,10 @@
       "name": "NO",
       "pattern": "(?i)\\b(?:no|nor|norwegian)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -996,10 +996,10 @@
       "name": "DA",
       "pattern": "(?i)\\b(?:da|dan|danish)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -1009,10 +1009,10 @@
       "name": "FI",
       "pattern": "(?i)\\b(?:fi|fin|finnish)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -1022,10 +1022,10 @@
       "name": "TH",
       "pattern": "(?i)\\b(?:th|tha|thai)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -1035,10 +1035,10 @@
       "name": "VI",
       "pattern": "(?i)\\b(?:vi|vie|vietnamese)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -1048,10 +1048,10 @@
       "name": "ID",
       "pattern": "(?i)\\b(?:id|ind|indonesian)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -1061,10 +1061,10 @@
       "name": "MS",
       "pattern": "(?i)\\b(?:ms|msa|malay)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     },
     {
       "groupId": "gl",
@@ -1074,10 +1074,10 @@
       "name": "TL",
       "pattern": "(?i)\\b(?:tl|tgl|filipino|tagalog)\\b",
       "tagColor": "#00000000",
-      "tagStyle": "bordered",
-      "textColor": "#FFFFFF",
+      "tagStyle": "fill",
+      "textColor": "#00000000",
       "type": "filter",
-      "borderColor": "#FFFFFF"
+      "borderColor": "#00000000"
     }
   ],
   "groups": [
